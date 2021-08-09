@@ -1,0 +1,319 @@
+body{
+margin: 0;
+padding: 0;
+font-family:Montserrat-Regular ;
+font-weight: 400;
+color:#ffffff ;
+}
+@font-face{
+font-family:Montserrat-Regular ;
+src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+font-family:LobsterTwo-Regular ;
+src: url(../fonts/LobsterTwo-Regular.ttf);
+}
+/*header start*/
+ header{
+  background-color: #575B5F;
+ }
+ .logo_custom {
+    height: 90px;
+}
+ .menu{
+
+ }
+.menu ul li a {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #ffffff !important;
+    margin: 0px 10px 0 0;
+    letter-spacing: 3px;
+}
+ .menu ul li:last-child a{
+  margin-right: 0;
+ }
+ .menu ul li a:hover{
+ color: #999999 !important;
+ }
+ .menu ul li a i{
+  font-size: 16px;
+  transition: 0.3s;
+ }
+ .menu ul li a i:hover{
+ 	transform: scale(1.8);
+    color: white;
+   }
+ 
+/*header end*/
+/*banner start*/
+.banner{
+ background-image: url(../images/banner1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.c_banner {
+    margin-top: 130px;
+    margin-bottom: 160px;
+}
+.b_h1 {
+    font-family: 'LobsterTwo-Regular';
+    font-size: 85px;
+}
+.b_p {
+    font-size: 35px;
+}
+.b_h5 {
+    font-family: 'Montserrat-Regular';
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0  180px;
+}
+.b_h3{
+   
+    border: 1px solid ;
+    font-size: 14px;
+    background-color: #ffffff;
+    margin: 60px 294px;
+    padding: 8px 0px;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+.b_h3:hover{
+	transform: scale(1.5);
+}
+.b_h3 a{
+text-decoration: none;
+color: black ;
+}
+
+/*banner end*/
+/*story start*/
+.story {
+    margin-bottom: 50px;
+}
+.storyimg{
+transition:0.3s ;
+}
+.storyimg:hover{
+transform: translateX(10px);
+}
+.s_h1 {
+    font-family: 'LobsterTwo-Regular';
+    font-size: 35px;
+    color: #28374b;
+}
+.s_p2 {
+    color: #28374b;
+    font-size:32px;
+}
+.s_p {
+    font-family: 'Montserrat-Regular';
+    font-size: 15px;
+    color: #a0b1a6;
+    letter-spacing: 2px;
+}
+.s_h3 {
+    font-size: 16px;
+    background-color: #27364A;
+    margin: 55px 248px 0px 28px;
+    padding: 12px 59px;
+    transition: 0.4s;;
+}
+.s_h3:hover{
+transform: scale(0.8);
+}
+.s_h3 a{
+ text-decoration: none;
+ color: white;
+text-align: center;
+}
+/*story end*/
+/*jhon de*/
+.jhon{
+background-image: url(../images/Noma.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.j_text {
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+.j_h1 {
+    font-family: 'Montserrat-Regular';
+    font-size: 25px;
+    color: #21A3F1;
+}
+.j_p {
+    font-family: 'LobsterTwo-Regular';
+    font-size: 18px;
+    color: #21A3F1;
+}
+
+/*jhon de*/
+.menu_h1 {
+    font-family: 'LobsterTwo-Regular';
+    font-size: 35px;
+    color: #28374b;
+    text-align: center;
+    margin: 25px 0;
+}
+/*menu item start*/
+.menu_1{
+
+}
+.menu_custom {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.menu_custom:hover{
+ transform: translate3d(10px, 5px, 6px);
+}
+.menu-text{
+
+}
+.m_h1 {
+    color: #F9AB68;
+    font-size: 32px;
+    font-family: 'LobsterTwo-Regular';
+    margin-top: 32px;
+   text-align: center;
+}
+.m_p {
+    font-family: 'Montserrat-Regular';
+    color: #F9AB68;
+    text-align: center;
+}
+.menu_btn {
+    background-color: #1f1e09;
+    color: white;
+    margin: 8px 0px 1px 0px;
+    transition: 0.3s;
+}
+.menu_btn:hover{
+transform: scale(1.1);
+color: white;
+}
+.menu_btn:focus{
+    box-shadow: none;
+}
+.show_h1 {
+    font-family: 'LobsterTwo-Regular';
+    font-size: 35px;
+    color: #28374b;
+    margin-top: 40px;
+}
+.show_a{
+ text-decoration: none;
+ font-size: 25px;
+}
+.show_a i{
+color: #28374b;
+transition: 0.4s;
+}
+.show_a i:hover{
+transform: scale(1.2);
+}
+/*menu item start*/ 
+/*contact*/
+.contact {
+    margin-top: 100px;
+    background-color: #cdcdcd;
+}
+.cont_cnt {
+    padding-top: 60px;
+    padding-bottom:120px;
+}
+.c_h1 {
+    font-family: 'LobsterTwo-Regular';
+    font-size: 35px;
+    color: #28374b;
+}
+.c_p {
+    margin:26px 113px;
+    color: #28374b;
+}
+.c-eamil{
+
+}
+.c-btn {
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+.c-btn:focus{
+box-shadow: none;
+}
+.c-btn:hover{
+    color: white;
+    background-color:red;
+}
+/*contact*/
+/*cook*/
+.cook {
+    margin: 42px 0;
+}
+.con{
+  position: relative;
+  width: 200%;
+  max-width: 300px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.con:hover .overlay {
+  opacity: 1;
+}
+/*cook*/
+/*foooter*/
+footer{
+padding-top: 100px;
+padding-bottom: 40px;
+background-color: #27364A;
+}
+.f_h1 {
+    font-size: 25px;
+    margin-bottom: 26px;
+}
+.f_h1:hover {
+border-bottom: 1px solid white;
+}
+
+.f_p1 {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.f_p1:hover{
+border-bottom: 1px solid white;
+}
+.f_p2{
+    margin-bottom: 0;
+    padding: 53px 37px;
+    font-size: 15px;
+}
+/*foooter*/
+
